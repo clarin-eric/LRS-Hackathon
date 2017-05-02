@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+ xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1493735943945"
+ xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1493735943945/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
+        <cmd:MdCreationDate>2017-05-02</cmd:MdCreationDate>
+        <cmd:MdProfile>clarin.eu:cr1:p_1493735943945</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>LRS hackathon examples</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="cs">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-cs.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="de">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-de.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="dk">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-dk.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="en">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-en.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="fi">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-fi.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="it">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-it.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="nl">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-nl.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="pl">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-pl.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="sl">
+                <cmd:ResourceType mimetype="application/msword">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/doc/hermes-sl.doc</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList>
+        </cmd:JournalFileProxyList>
+        <cmd:ResourceRelationList>
+        </cmd:ResourceRelationList>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmdp:ExampleResource>
+            <cmdp:Name xml:lang="en">Sample resources (text)</cmdp:Name>
+            <cmdp:Description>
+                <cmdp:Description xml:lang="en">Sample resources in the Microsoft Word binary file format (DOC) in 9 languages</cmdp:Description>
+            </cmdp:Description>
+            <cmdp:Language>
+                <cmdp:LanguageName>Czech</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>ces</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>German</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>deu</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Danish</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>dan</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>English</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>eng</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Finnish</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>fin</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Italian</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>ita</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Dutch</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>nld</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Polish</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>pol</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Language>
+                <cmdp:LanguageName>Slovene</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>slv</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Source>
+                <cmdp:SourceName>Wikipedia</cmdp:SourceName>
+                <cmdp:SourceType>Online encyclopedia</cmdp:SourceType>
+            </cmdp:Source>
+            <cmdp:License>
+                <cmdp:DistributionType>public</cmdp:DistributionType>
+                <cmdp:LicenseName>CC-BY-SA 3.0</cmdp:LicenseName>
+                <cmdp:LicenseURL>https://creativecommons.org/licenses/by-sa/3.0/</cmdp:LicenseURL>
+            </cmdp:License>
+        </cmdp:ExampleResource>
+    </cmd:Components>
+</cmd:CMD>
