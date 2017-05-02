@@ -7,7 +7,10 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1493735943945/xsd" CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdProfile>http://www.oxygenxml.com/</cmd:MdProfile>
+        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
+        <cmd:MdCreationDate>2017-05-02</cmd:MdCreationDate>
+        <cmd:MdProfile>clarin.eu:cr1:p_1493735943945</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>LRS hackathon examples</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
