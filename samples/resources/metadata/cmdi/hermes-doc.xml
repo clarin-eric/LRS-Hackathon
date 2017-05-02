@@ -58,7 +58,7 @@
     </cmd:Resources>
     <cmd:Components>
         <cmdp:ExampleResource>
-            <cmdp:Name xml:lang="en">Sample resources (text)</cmdp:Name>
+            <cmdp:Name xml:lang="en">Sample resources (MS Word DOC)</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
                     Sample resources in the Microsoft Word binary file format (DOC) in 9 languages. 

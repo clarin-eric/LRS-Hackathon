@@ -58,7 +58,7 @@
     </cmd:Resources>
     <cmd:Components>
         <cmdp:ExampleResource>
-            <cmdp:Name xml:lang="en">Sample resources (text)</cmdp:Name>
+            <cmdp:Name xml:lang="en">Sample resources (plain text)</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
                     Sample resources of type plain text in 9 languages. 
