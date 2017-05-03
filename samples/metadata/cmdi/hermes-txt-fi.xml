@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (plain text) - Finnish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources of type plain text in Finnish. 
+                    Sample resource of type plain text in Finnish. 
                     Content is sourced from the Wikipedia article at https://fi.wikipedia.org/wiki/Hermes
                 </cmdp:Description>
             </cmdp:Description>

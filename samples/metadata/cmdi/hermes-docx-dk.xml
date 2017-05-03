@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (MS Word DOCX) - Danish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources in the Office Open XML Document (DOCX) format in Danish. 
+                    Sample resource in the Office Open XML Document (DOCX) format in Danish. 
                     Content is sourced from the Wikipedia article at https://dk.wikipedia.org/wiki/Hermes.
                 </cmdp:Description>
             </cmdp:Description>

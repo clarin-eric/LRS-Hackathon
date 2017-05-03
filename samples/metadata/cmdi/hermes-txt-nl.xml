@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (plain text) - Dutch</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources of type plain text in Dutch. 
+                    Sample resource of type plain text in Dutch. 
                     Content is sourced from the Wikipedia article at https://nl.wikipedia.org/wiki/Hermes_(mythologie).
                 </cmdp:Description>
             </cmdp:Description>

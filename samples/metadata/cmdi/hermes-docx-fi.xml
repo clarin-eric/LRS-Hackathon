@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (MS Word DOCX) - Finnish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources in the Office Open XML Document (DOCX) format in Finnish. 
+                    Sample resource in the Office Open XML Document (DOCX) format in Finnish. 
                     Content is sourced from the Wikipedia article at https://fi.wikipedia.org/wiki/Hermes
                 </cmdp:Description>
             </cmdp:Description>

@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (plain text) - German</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources of type plain text in German. 
+                    Sample resource of type plain text in German. 
                     Content is sourced from the Wikipedia article at https://de.wikipedia.org/wiki/Hermes.
                 </cmdp:Description>
             </cmdp:Description>

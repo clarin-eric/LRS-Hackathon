@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (plain text) - Slovenian</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources of type plain text in Slovenian. 
+                    Sample resource of type plain text in Slovenian. 
                     Content is sourced from the Wikipedia article at  https://sl.wikipedia.org/wiki/Hermes
                 </cmdp:Description>
             </cmdp:Description>

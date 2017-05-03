@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (MS Word DOC) - Italian</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources in the Microsoft Word binary file format (DOC) in Italian. 
+                    Sample resource in the Microsoft Word binary file format (DOC) in Italian. 
                     Content is sourced from the Wikipedia article at https://it.wikipedia.org/wiki/Ermes
                 </cmdp:Description>
             </cmdp:Description>

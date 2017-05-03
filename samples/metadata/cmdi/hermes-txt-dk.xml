@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (plain text) - Danish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources of type plain text in Danish. 
+                    Sample resource of type plain text in Danish. 
                     Content is sourced from the Wikipedia article at https://dk.wikipedia.org/wiki/Hermes.
                 </cmdp:Description>
             </cmdp:Description>

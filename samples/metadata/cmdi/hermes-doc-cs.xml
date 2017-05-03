@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (MS Word DOC) - Czech</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources in the Microsoft Word binary file format (DOC) in Czech. 
+                    Sample resource in the Microsoft Word binary file format (DOC) in Czech. 
                     Content is sourced from the Wikipedia article at https://cs.wikipedia.org/wiki/Herm%C3%A9s.
                 </cmdp:Description>
             </cmdp:Description>

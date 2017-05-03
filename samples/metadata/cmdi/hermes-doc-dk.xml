@@ -29,7 +29,7 @@
             <cmdp:Name xml:lang="en">Sample resource (MS Word DOC) - Danish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample resources in the Microsoft Word binary file format (DOC) in Danish. 
+                    Sample resource in the Microsoft Word binary file format (DOC) in Danish. 
                     Content is sourced from the Wikipedia article at https://dk.wikipedia.org/wiki/Hermes.
                 </cmdp:Description>
             </cmdp:Description>
