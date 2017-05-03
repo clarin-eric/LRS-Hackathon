@@ -18,6 +18,10 @@
                 <cmd:ResourceType mimetype="audio/ogg">Resource</cmd:ResourceType>
                 <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/speech/dk-Flugten_til_Amerika_af_Christian_Winther_(LibriVox_2).ogg</cmd:ResourceRef>
             </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="wav">
+                <cmd:ResourceType mimetype="audio/wav">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/speech/dk-Flugten_til_Amerika_af_Christian_Winther_(LibriVox_2).wav</cmd:ResourceRef>
+            </cmd:ResourceProxy>
             <cmd:ResourceProxy id="landing">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://commons.wikimedia.org/wiki/File:Flugten_til_Amerika_af_Christian_Winther_(LibriVox).ogg</cmd:ResourceRef>
@@ -30,10 +34,10 @@
     </cmd:Resources>
     <cmd:Components>
         <cmdp:ExampleResource>
-            <cmdp:Name xml:lang="en">Sample audio resource (Ogg) - Danish</cmdp:Name>
+            <cmdp:Name xml:lang="en">Sample audio resources - Danish</cmdp:Name>
             <cmdp:Description>
                 <cmdp:Description xml:lang="en">
-                    Sample audio file in the Ogg Vorbis format. Sourced from Wikimedia Commons.
+                    Sample audio file in the Ogg Vorbis and WAVE formats. Sourced from Wikimedia Commons..
                 </cmdp:Description>
             </cmdp:Description>
             <cmdp:Language>
