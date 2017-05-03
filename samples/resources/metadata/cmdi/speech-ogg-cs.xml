@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+ xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1493735943945"
+ xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1493735943945/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Twan Goosen</cmd:MdCreator>
+        <cmd:MdCreationDate>2017-05-02</cmd:MdCreationDate>
+        <cmd:MdProfile>clarin.eu:cr1:p_1493735943945</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>LRS hackathon examples</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ogg">
+                <cmd:ResourceType mimetype="audio/ogg">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://github.com/clarin-eric/LRS-Hackathon/raw/master/samples/resources/speech/cs-Ozvěny_ze_světa,_8._února_2008.ogg</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="landing">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>https://commons.wikimedia.org/wiki/File:Ozvěny_ze_světa,_8._února_2008.ogg</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList>
+        </cmd:JournalFileProxyList>
+        <cmd:ResourceRelationList>
+        </cmd:ResourceRelationList>
+    </cmd:Resources>
+    <cmd:Components>
+        <cmdp:ExampleResource>
+            <cmdp:Name xml:lang="en">Sample audio resource (Ogg) - Czech</cmdp:Name>
+            <cmdp:Description>
+                <cmdp:Description xml:lang="en">
+                    Sample audio file in the Ogg Vorbis format. Sourced from Wikimedia Commons.
+                </cmdp:Description>
+            </cmdp:Description>
+            <cmdp:Language>
+                <cmdp:LanguageName xml:lang="en">Czech</cmdp:LanguageName>
+                <cmdp:ISO639>
+                    <cmdp:iso-639-3-code>ces</cmdp:iso-639-3-code>
+                </cmdp:ISO639>
+            </cmdp:Language>
+            <cmdp:Source>
+                <cmdp:SourceName>Wikimedia Commons</cmdp:SourceName>
+            </cmdp:Source>
+            <cmdp:Author>
+                <cmdp:Name>Juan de Vojníkov</cmdp:Name>
+                <cmdp:Description>
+                    <cmdp:Description>By wikimedia Commons user https://commons.wikimedia.org/wiki/User:Juandev</cmdp:Description>
+                </cmdp:Description>
+            </cmdp:Author>
+            <cmdp:License>
+                <cmdp:DistributionType>public</cmdp:DistributionType>
+                <cmdp:LicenseName>CC-BY 3.0</cmdp:LicenseName>
+                <cmdp:LicenseURL>https://creativecommons.org/licenses/by-sa/3.0</cmdp:LicenseURL>
+            </cmdp:License>
+        </cmdp:ExampleResource>
+    </cmd:Components>
+</cmd:CMD>
