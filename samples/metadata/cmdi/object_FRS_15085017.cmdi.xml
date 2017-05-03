@@ -17,7 +17,7 @@
             <cmd:ResourceRef>http://europeana.eu/portal/record/2058606/object_FRS_15085017.html</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e3">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>https://ranieridisorbello.locloudhosting.net/files/original/481a0bc3e36b816e372f316cc5ff7e3d.PDF</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e6">

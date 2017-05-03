@@ -21,7 +21,7 @@
             <cmd:ResourceRef>http://imageviewer.kb.nl/ImagingService/imagingService?id=dpo:10018:mpeg21:0006:image</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e11">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://resolver.kb.nl/resolve?urn=dpo:10018:mpeg21:pdf</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e3">

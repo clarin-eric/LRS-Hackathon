@@ -17,7 +17,7 @@
             <cmd:ResourceRef>http://europeana.eu/portal/record/2021006/URN_NBN_fi_fd2011_pp00002475.html</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e4">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.doria.fi/bitstream/handle/10024/81350/fd2011-pp00002475-pdf001.pdf?sequence=1</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e3">

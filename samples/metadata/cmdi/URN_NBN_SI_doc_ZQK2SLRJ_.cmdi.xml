@@ -21,7 +21,7 @@
             <cmd:ResourceRef>http://www.dlib.si/streamdb/URN:NBN:SI:doc-ZQK2SLRJ/maxi/edm</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e4">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/e341e383-9c64-4b73-981d-5ee7ead4f052/PDF</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e3">
@@ -29,11 +29,11 @@
             <cmd:ResourceRef>http://www.dlib.si/details/URN:NBN:SI:doc-ZQK2SLRJ</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e6">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="text/html">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/49eb9b72-d76d-4a38-8ee5-66b247859387/HTML</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e7">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/8b8774b3-2221-4d5a-89ad-2a90d7ee4bac/TEXT</cmd:ResourceRef>
          </cmd:ResourceProxy>
       </cmd:ResourceProxyList>
@@ -51,7 +51,7 @@
                <dc-identifier>COBISSID:85463296</dc-identifier>
                <dc-identifier>SIGN:n36036</dc-identifier>
                <dc-identifier>URN:URN:NBN:SI:doc-ZQK2SLRJ</dc-identifier>
-               <dc-language>ger</dc-language>
+               <dc-language>deu</dc-language>
                <dc-source>Knjige</dc-source>
                <dc-source xml:lang="slv">Slovenski nacionalni agregator e-vsebin</dc-source>
                <dc-source xml:lang="slv">Narodna in univerzitetna knjižnica, Slovenija</dc-source>
@@ -166,6 +166,7 @@
             <edm-collectionName>92068_Ag_Slovenia_ETravel</edm-collectionName>
             <edm-country>Slovenia</edm-country>
             <edm-language>sl</edm-language>
+            <edm-language>de</edm-language>
             <edm-landingPage cmd:ref="landingPage_d1e161"/>
             <edm-rights>
                <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>

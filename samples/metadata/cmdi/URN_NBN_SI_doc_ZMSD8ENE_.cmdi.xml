@@ -21,7 +21,7 @@
             <cmd:ResourceRef>http://www.dlib.si/streamdb/URN:NBN:SI:doc-ZMSD8ENE/maxi/edm</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e4">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZMSD8ENE/4b031248-422a-4bf2-8edf-8f3700668ad4/PDF</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e3">
@@ -29,11 +29,11 @@
             <cmd:ResourceRef>http://www.dlib.si/details/URN:NBN:SI:doc-ZMSD8ENE</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e6">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="text/html">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZMSD8ENE/17bd2efe-97b8-47bd-90a3-51adb319da37/HTML</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e7">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZMSD8ENE/9cd63a90-0057-48b7-8460-75a177528370/TEXT</cmd:ResourceRef>
          </cmd:ResourceProxy>
       </cmd:ResourceProxyList>

@@ -25,7 +25,7 @@
             <cmd:ResourceRef>http://sounds.bl.uk/Oral-history/Jewish-Holocaust-survivors/021M-C0410X0052XX-0300V0</cmd:ResourceRef>
          </cmd:ResourceProxy>
          <cmd:ResourceProxy id="webResource_d1e5">
-            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
             <cmd:ResourceRef>http://sounds.bl.uk/related-content/TRANSCRIPTS/021I-C0410X0052XX-ZZZZA0.pdf</cmd:ResourceRef>
          </cmd:ResourceProxy>
       </cmd:ResourceProxyList>
