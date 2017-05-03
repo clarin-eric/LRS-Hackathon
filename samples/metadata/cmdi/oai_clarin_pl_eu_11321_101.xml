@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8'?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1349361150622" CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1349361150622 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1349361150622/xsd"><cmd:Header><cmd:MdCreationDate>2015-06-08</cmd:MdCreationDate><cmd:MdSelfLink>http://hdl.handle.net/11321/101@format=cmdi</cmd:MdSelfLink><cmd:MdProfile>clarin.eu:cr1:p_1349361150622</cmd:MdProfile><cmd:MdCollectionDisplayName>CLARIN-PL</cmd:MdCollectionDisplayName></cmd:Header><cmd:Resources><cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="lp_124">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>http://hdl.handle.net/11321/101</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1397">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/berent_prochno_1903.txt?sequence=1</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1398">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/berent_kamienie_1918.txt?sequence=2</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1399">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dabrowska_nocednie1_1931.txt?sequence=3</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1400">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/berent_diogenes_1937.txt?sequence=4</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1401">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dmochowska_obraczka_1907.txt?sequence=5</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1402">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dabrowska_nocednie3_1933.txt?sequence=6</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1403">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dmochowska_dwor_1903.txt?sequence=7</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1404">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dabrowska_nocednie2_1932.txt?sequence=8</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1405">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/dmochowska_odlamana_1914.txt?sequence=9</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1406">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/domanska_historia_1913.txt?sequence=10</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1407">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/domanska_paziowie_1910.txt?sequence=11</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1408">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/domanska_krysia_1914.txt?sequence=12</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1409">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/gojawiczynska_ziemia_1934.txt?sequence=13</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1410">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/iwaszkiewicz_czerwone_1934.txt?sequence=14</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1411">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/gojawiczynska_dziewczeta_1935.txt?sequence=15</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1412">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/gojawiczynska_jablon_1937.txt?sequence=16</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1413">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/iwaszkiewicz_panny_1932.txt?sequence=17</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1414">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/iwaszkiewicz_mlyn_1936.txt?sequence=18</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1415">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kossak_bog_1935.txt?sequence=19</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1416">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kossak_oreza_1937.txt?sequence=20</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1417">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kossak_zmilosci_1925.txt?sequence=21</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1418">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/krzemieniecka_wichry_1923.txt?sequence=22</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1419">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/krzemieniecka_odejdzie_1910.txt?sequence=23</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1420">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/krzemieniecka_fatum_1904.txt?sequence=24</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1421">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kuncewiczowa_ksiezyce_1933.txt?sequence=25</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1422">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kuncewiczowa_cudzoziemka_1936.txt?sequence=26</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1423">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/kuncewiczowa_twarz_1928.txt?sequence=27</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1424">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/makuszynski_basie_1937.txt?sequence=28</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1425">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/makuszynski_drodze_1917.txt?sequence=29</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1426">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/makuszynski_szalenstwa_1940.txt?sequence=30</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1427">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mniszek_ordynat_1910.txt?sequence=31</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1428">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mniszek_gehenna_1914.txt?sequence=32</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1429">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mostowicz_kariera_1932.txt?sequence=33</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1430">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mniszek_tredowata_1909.txt?sequence=34</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1431">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mostowicz_hanki_1939.txt?sequence=35</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1432">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/mostowicz_murek_1936.txt?sequence=36</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1433">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/nalkowska_romans_1923.txt?sequence=37</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1434">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/orzeszkowa_gloria_1910.txt?sequence=38</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1435">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/nalkowska_granica_1935.txt?sequence=39</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1436">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/nalkowska_kobiety_1906.txt?sequence=40</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1437">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/samozwaniec_ustach_1922.txt?sequence=41</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1438">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/rodziewicz_lato_1920.txt?sequence=42</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1439">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/swietochowski_drygalowie_1914.txt?sequence=43</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1440">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/reymont_chlopi_1908.txt?sequence=44</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1441">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zapolska_smierc_1911.txt?sequence=45</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1442">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/sygietynski_ogien_1918.txt?sequence=46</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1443">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zapolska_tagiejew_1905.txt?sequence=47</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1444">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/swietochowski_twinko_1936.txt?sequence=48</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1445">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zarzycka_irka_1931.txt?sequence=49</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1446">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zeromski_przedwiosnie_1924.txt?sequence=50</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1447">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zarzycka_dzikuska_1927.txt?sequence=51</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1448">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zarzycka_wiatr_1934.txt?sequence=52</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1449">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zulawski_laus_1914.txt?sequence=53</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1450">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zulawski_srebrnym_1903.txt?sequence=54</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_1451">
+                <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/zulawski_zwyciezca_1910.txt?sequence=55</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_3164">
+                <cmd:ResourceType mimetype="application/zip">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/wyniki.csv.zip?sequence=57</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_3218">
+                <cmd:ResourceType mimetype="application/zip">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/wyniki.csv.zip?sequence=58</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="_3219">
+                <cmd:ResourceType mimetype="application/zip">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://clarin-pl.eu/dspace/bitstream/handle/11321/101/wyniki.csv.zip?sequence=59</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList><cmd:JournalFileProxyList/><cmd:ResourceRelationList/></cmd:Resources><cmd:Components>
+        <cmdp:data>
+            <cmdp:OLAC-DcmiTerms>
+                <cmdp:available>2015-04-08T14:01:01Z</cmdp:available>
+                <cmdp:creator>Pisarze, Pisarze</cmdp:creator>
+                <cmdp:date>2015-04-08T14:01:01Z</cmdp:date>
+                <cmdp:description>berent_diogenes_1937.txt&#xd;
+berent_kamienie_1918.txt&#xd;
+berent_prochno_1903.txt&#xd;
+dabrowska_nocednie1_1931.txt&#xd;
+dabrowska_nocednie2_1932.txt&#xd;
+dabrowska_nocednie3_1933.txt&#xd;
+dmochowska_dwor_1903.txt&#xd;
+dmochowska_obraczka_1907.txt&#xd;
+dmochowska_odlamana_1914.txt&#xd;
+domanska_historia_1913.txt&#xd;
+domanska_krysia_1914.txt&#xd;
+domanska_paziowie_1910.txt&#xd;
+gojawiczynska_dziewczeta_1935.txt&#xd;
+gojawiczynska_jablon_1937.txt&#xd;
+gojawiczynska_ziemia_1934.txt&#xd;
+iwaszkiewicz_czerwone_1934.txt&#xd;
+iwaszkiewicz_mlyn_1936.txt&#xd;
+iwaszkiewicz_panny_1932.txt&#xd;
+kossak_bog_1935.txt&#xd;
+kossak_oreza_1937.txt&#xd;
+kossak_zmilosci_1925.txt&#xd;
+krzemieniecka_fatum_1904.txt&#xd;
+krzemieniecka_odejdzie_1910.txt&#xd;
+krzemieniecka_wichry_1923.txt&#xd;
+kuncewiczowa_cudzoziemka_1936.txt&#xd;
+kuncewiczowa_ksiezyce_1933.txt&#xd;
+kuncewiczowa_twarz_1928.txt&#xd;
+makuszynski_basie_1937.txt&#xd;
+makuszynski_drodze_1917.txt&#xd;
+makuszynski_szalenstwa_1940.txt&#xd;
+mniszek_gehenna_1914.txt&#xd;
+mniszek_ordynat_1910.txt&#xd;
+mniszek_tredowata_1909.txt&#xd;
+mostowicz_hanki_1939.txt&#xd;
+mostowicz_kariera_1932.txt&#xd;
+mostowicz_murek_1936.txt&#xd;
+nalkowska_granica_1935.txt&#xd;
+nalkowska_kobiety_1906.txt&#xd;
+nalkowska_romans_1923.txt&#xd;
+orzeszkowa_gloria_1910.txt&#xd;
+reymont_chlopi_1908.txt&#xd;
+rodziewicz_lato_1920.txt&#xd;
+samozwaniec_ustach_1922.txt&#xd;
+swietochowski_drygalowie_1914.txt&#xd;
+swietochowski_twinko_1936.txt&#xd;
+sygietynski_ogien_1918.txt&#xd;
+zapolska_smierc_1911.txt&#xd;
+zapolska_tagiejew_1905.txt&#xd;
+zarzycka_dzikuska_1927.txt&#xd;
+zarzycka_irka_1931.txt&#xd;
+zarzycka_wiatr_1934.txt&#xd;
+zeromski_przedwiosnie_1924.txt&#xd;
+zulawski_laus_1914.txt&#xd;
+zulawski_srebrnym_1903.txt&#xd;
+zulawski_zwyciezca_1910.txt</cmdp:description>
+                <cmdp:identifier>http://hdl.handle.net/11321/101</cmdp:identifier>
+                <cmdp:issued>2015-04-08</cmdp:issued>
+                <cmdp:language olac-language="pol">pol</cmdp:language>
+                <cmdp:publisher>Pisarze</cmdp:publisher>
+                <cmdp:rights>GNU LGPL 3.0</cmdp:rights>
+                <cmdp:rights>http://www.gnu.org/licenses/lgpl.html</cmdp:rights>
+                <cmdp:title>MWE Wiek XX</cmdp:title>
+                <cmdp:type>corpus</cmdp:type>
+            </cmdp:OLAC-DcmiTerms>
+            <cmdp:resourceInfo>
+                <cmdp:identificationInfo>
+                    <cmdp:resourceName>MWE Wiek XX</cmdp:resourceName>
+                    <cmdp:description>berent_diogenes_1937.txt&#xd;
+berent_kamienie_1918.txt&#xd;
+berent_prochno_1903.txt&#xd;
+dabrowska_nocednie1_1931.txt&#xd;
+dabrowska_nocednie2_1932.txt&#xd;
+dabrowska_nocednie3_1933.txt&#xd;
+dmochowska_dwor_1903.txt&#xd;
+dmochowska_obraczka_1907.txt&#xd;
+dmochowska_odlamana_1914.txt&#xd;
+domanska_historia_1913.txt&#xd;
+domanska_krysia_1914.txt&#xd;
+domanska_paziowie_1910.txt&#xd;
+gojawiczynska_dziewczeta_1935.txt&#xd;
+gojawiczynska_jablon_1937.txt&#xd;
+gojawiczynska_ziemia_1934.txt&#xd;
+iwaszkiewicz_czerwone_1934.txt&#xd;
+iwaszkiewicz_mlyn_1936.txt&#xd;
+iwaszkiewicz_panny_1932.txt&#xd;
+kossak_bog_1935.txt&#xd;
+kossak_oreza_1937.txt&#xd;
+kossak_zmilosci_1925.txt&#xd;
+krzemieniecka_fatum_1904.txt&#xd;
+krzemieniecka_odejdzie_1910.txt&#xd;
+krzemieniecka_wichry_1923.txt&#xd;
+kuncewiczowa_cudzoziemka_1936.txt&#xd;
+kuncewiczowa_ksiezyce_1933.txt&#xd;
+kuncewiczowa_twarz_1928.txt&#xd;
+makuszynski_basie_1937.txt&#xd;
+makuszynski_drodze_1917.txt&#xd;
+makuszynski_szalenstwa_1940.txt&#xd;
+mniszek_gehenna_1914.txt&#xd;
+mniszek_ordynat_1910.txt&#xd;
+mniszek_tredowata_1909.txt&#xd;
+mostowicz_hanki_1939.txt&#xd;
+mostowicz_kariera_1932.txt&#xd;
+mostowicz_murek_1936.txt&#xd;
+nalkowska_granica_1935.txt&#xd;
+nalkowska_kobiety_1906.txt&#xd;
+nalkowska_romans_1923.txt&#xd;
+orzeszkowa_gloria_1910.txt&#xd;
+reymont_chlopi_1908.txt&#xd;
+rodziewicz_lato_1920.txt&#xd;
+samozwaniec_ustach_1922.txt&#xd;
+swietochowski_drygalowie_1914.txt&#xd;
+swietochowski_twinko_1936.txt&#xd;
+sygietynski_ogien_1918.txt&#xd;
+zapolska_smierc_1911.txt&#xd;
+zapolska_tagiejew_1905.txt&#xd;
+zarzycka_dzikuska_1927.txt&#xd;
+zarzycka_irka_1931.txt&#xd;
+zarzycka_wiatr_1934.txt&#xd;
+zeromski_przedwiosnie_1924.txt&#xd;
+zulawski_laus_1914.txt&#xd;
+zulawski_srebrnym_1903.txt&#xd;
+zulawski_zwyciezca_1910.txt</cmdp:description>
+                    <cmdp:metaShareId>NOT_DEFINED_FOR_V2</cmdp:metaShareId>
+                    <cmdp:identifier>http://hdl.handle.net/11321/101</cmdp:identifier>
+                </cmdp:identificationInfo>
+                <cmdp:distributionInfo>
+                    <cmdp:availability>available-restrictedUse</cmdp:availability>
+                    <cmdp:licenceInfo>
+                        <cmdp:licence>other</cmdp:licence>
+                        <cmdp:restrictionsOfUse>other</cmdp:restrictionsOfUse>
+                        <cmdp:distributionAccessMedium>downloadable</cmdp:distributionAccessMedium>
+                    </cmdp:licenceInfo>
+                </cmdp:distributionInfo>
+                <cmdp:contactPerson>
+                    <cmdp:surname>Michał Wendelberger</cmdp:surname>
+                    <cmdp:givenName>No value given</cmdp:givenName>
+                    <cmdp:communicationInfo>
+                        <cmdp:email>michal.wendel@gmail.com</cmdp:email>
+                    </cmdp:communicationInfo>
+                </cmdp:contactPerson>
+                <cmdp:metadataInfo>
+                    <cmdp:metadataCreationDate>2015-06-08</cmdp:metadataCreationDate>
+                </cmdp:metadataInfo>
+                <cmdp:resourceComponentType>
+                    <cmdp:corpusInfo>
+                        <cmdp:resourceType>corpus</cmdp:resourceType>
+                        <cmdp:corpusMediaType>
+                            <cmdp:corpusTextInfo>
+                                <cmdp:mediaType>text</cmdp:mediaType>
+                                <cmdp:lingualityInfo>
+                                    <cmdp:lingualityType>monolingual</cmdp:lingualityType>
+                                </cmdp:lingualityInfo>
+                                <cmdp:languageInfo>
+                                    <cmdp:languageId>pol</cmdp:languageId>
+                                    <cmdp:languageName>Polish</cmdp:languageName>
+                                </cmdp:languageInfo>
+                                <cmdp:sizeInfo>
+                                    <cmdp:size>55</cmdp:size>
+                                    <cmdp:sizeUnit>files</cmdp:sizeUnit>
+                                </cmdp:sizeInfo>
+                            </cmdp:corpusTextInfo>
+                        </cmdp:corpusMediaType>
+                    </cmdp:corpusInfo>
+                </cmdp:resourceComponentType>
+            </cmdp:resourceInfo>
+        </cmdp:data>
+    </cmd:Components></cmd:CMD>

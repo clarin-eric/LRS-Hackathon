@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1349361150622" CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1349361150622 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1349361150622/xsd"><cmd:Header><cmd:MdCreationDate>2016-04-06</cmd:MdCreationDate><cmd:MdSelfLink>http://hdl.handle.net/11858/00-097C-0000-000C-2112-B@format=cmdi</cmd:MdSelfLink><cmd:MdProfile>clarin.eu:cr1:p_1349361150622</cmd:MdProfile><cmd:MdCollectionDisplayName>LINDAT / CLARIN Data &amp; Tools</cmd:MdCollectionDisplayName></cmd:Header><cmd:Resources><cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="lp_121">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>http://hdl.handle.net/11858/00-097C-0000-000C-2112-B</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="uri_1">
+                <cmd:ResourceType mimetype="text/html">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://utkl.ff.cuni.cz/learncorp/</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="manual_ces">
+                <cmd:ResourceType mimetype="application/pdf">Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11858/00-097C-0000-000C-2112-B/transkripce.pdf?sequence=3&amp;isAllowed=y</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList><cmd:JournalFileProxyList/><cmd:ResourceRelationList/></cmd:Resources><cmd:Components>
+        <cmdp:data>
+            <cmdp:OLAC-DcmiTerms>
+                <cmdp:available>2012-12-12T11:24:11Z</cmdp:available>
+                <cmdp:creator>Šebesta, Karel</cmdp:creator>
+                <cmdp:creator>Bedřichová, Zuzanna</cmdp:creator>
+                <cmdp:creator>Šormová, Kateřina</cmdp:creator>
+                <cmdp:creator>Štindlová, Barbora</cmdp:creator>
+                <cmdp:creator>Hrdlička, Milan</cmdp:creator>
+                <cmdp:creator>Hrdličková, Tereza</cmdp:creator>
+                <cmdp:creator>Hana, Jiří</cmdp:creator>
+                <cmdp:creator>Rosen, Alexandr</cmdp:creator>
+                <cmdp:creator>Petkevič, Vladimír</cmdp:creator>
+                <cmdp:creator>Jelínek, Tomáš</cmdp:creator>
+                <cmdp:creator>Škodová, Svatava</cmdp:creator>
+                <cmdp:creator>Poláčková, Marie</cmdp:creator>
+                <cmdp:creator>Janeš, Petr</cmdp:creator>
+                <cmdp:creator>Lundáková, Kateřina</cmdp:creator>
+                <cmdp:creator>Skoumalová, Hana</cmdp:creator>
+                <cmdp:creator>Šťastný, Klement</cmdp:creator>
+                <cmdp:creator>Sládek, Šimon</cmdp:creator>
+                <cmdp:creator>Pierscieniak, Piotr</cmdp:creator>
+                <cmdp:date>2012-12-12T11:24:11Z</cmdp:date>
+                <cmdp:description>Corpus AKCES 3 includes texts written in czech by non-native speakers (AKCES/CLAC - Czech Language Acquisition Corpora)</cmdp:description>
+                <cmdp:description>ESF (OPVK CZ.1.07/2.2.00/07.0259), MŠMT (MSM0021620825), UK (P10)</cmdp:description>
+                <cmdp:identifier>http://hdl.handle.net/11858/00-097C-0000-000C-2112-B</cmdp:identifier>
+                <cmdp:issued>2012-12-12</cmdp:issued>
+                <cmdp:language olac-language="ces">ces</cmdp:language>
+                <cmdp:publisher>Charles University in Prague, ÚČJTK</cmdp:publisher>
+                <cmdp:rights>Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)</cmdp:rights>
+                <cmdp:rights>http://creativecommons.org/licenses/by-nc-nd/3.0/</cmdp:rights>
+                <cmdp:source>http://utkl.ff.cuni.cz/learncorp/</cmdp:source>
+                <cmdp:subject>Czech as a foreign language</cmdp:subject>
+                <cmdp:subject>Czech language acquisition corpora</cmdp:subject>
+                <cmdp:subject>non-native speakers</cmdp:subject>
+                <cmdp:subject>AKCES</cmdp:subject>
+                <cmdp:subject>second language aquisition</cmdp:subject>
+                <cmdp:title>AKCES 3</cmdp:title>
+                <cmdp:type>corpus</cmdp:type>
+            </cmdp:OLAC-DcmiTerms>
+            <cmdp:resourceInfo>
+                <cmdp:identificationInfo>
+                    <cmdp:resourceName>AKCES 3</cmdp:resourceName>
+                    <cmdp:description>Corpus AKCES 3 includes texts written in czech by non-native speakers (AKCES/CLAC - Czech Language Acquisition Corpora)</cmdp:description>
+                    <cmdp:metaShareId>NOT_DEFINED_FOR_V2</cmdp:metaShareId>
+                    <cmdp:identifier>http://hdl.handle.net/11858/00-097C-0000-000C-2112-B</cmdp:identifier>
+                </cmdp:identificationInfo>
+                <cmdp:distributionInfo>
+                    <cmdp:availability>available-restrictedUse</cmdp:availability>
+                    <cmdp:licenceInfo>
+                        <cmdp:licence>CC-BY-NC-ND</cmdp:licence>
+                        <cmdp:restrictionsOfUse>attribution</cmdp:restrictionsOfUse>
+                        <cmdp:restrictionsOfUse>academic-nonCommercialUse</cmdp:restrictionsOfUse>
+                        <cmdp:restrictionsOfUse>noDerivatives</cmdp:restrictionsOfUse>
+                        <cmdp:distributionAccessMedium>webExecutable</cmdp:distributionAccessMedium>
+                    </cmdp:licenceInfo>
+                </cmdp:distributionInfo>
+                <cmdp:contactPerson>
+                    <cmdp:surname>Šebesta</cmdp:surname>
+                    <cmdp:givenName>KS</cmdp:givenName>
+                    <cmdp:communicationInfo>
+                        <cmdp:email>sebesta@ff.cuni.cz</cmdp:email>
+                    </cmdp:communicationInfo>
+                    <cmdp:affiliation>
+                        <cmdp:organizationName>Charles University in Prague, ÚČJTK</cmdp:organizationName>
+                        <cmdp:communicationInfo>
+                            <cmdp:email>sebesta@ff.cuni.cz</cmdp:email>
+                        </cmdp:communicationInfo>
+                    </cmdp:affiliation>
+                </cmdp:contactPerson>
+                <cmdp:metadataInfo>
+                    <cmdp:metadataCreationDate>2016-04-06</cmdp:metadataCreationDate>
+                </cmdp:metadataInfo>
+                <cmdp:resourceCreationInfo>
+                    <cmdp:fundingProject>
+                        <cmdp:projectName>Inovace vzdělávání v oboru čeština jako druhý jazyk; Jazyk jako lidská činnost, její produkt a faktor; Lingvistika</cmdp:projectName>
+                        <cmdp:fundingType>nationalFunds</cmdp:fundingType>
+                    </cmdp:fundingProject>
+                </cmdp:resourceCreationInfo>
+                <cmdp:resourceComponentType>
+                    <cmdp:corpusInfo>
+                        <cmdp:resourceType>corpus</cmdp:resourceType>
+                        <cmdp:corpusMediaType>
+                            <cmdp:corpusTextInfo>
+                                <cmdp:mediaType>text</cmdp:mediaType>
+                                <cmdp:lingualityInfo>
+                                    <cmdp:lingualityType>monolingual</cmdp:lingualityType>
+                                </cmdp:lingualityInfo>
+                                <cmdp:languageInfo>
+                                    <cmdp:languageId>ces</cmdp:languageId>
+                                    <cmdp:languageName>Czech</cmdp:languageName>
+                                </cmdp:languageInfo>
+                                <cmdp:sizeInfo>
+                                    <cmdp:size>11.32</cmdp:size>
+                                    <cmdp:sizeUnit>mb</cmdp:sizeUnit>
+                                </cmdp:sizeInfo>
+                            </cmdp:corpusTextInfo>
+                        </cmdp:corpusMediaType>
+                    </cmdp:corpusInfo>
+                </cmdp:resourceComponentType>
+            </cmdp:resourceInfo>
+        </cmdp:data>
+    </cmd:Components></cmd:CMD>

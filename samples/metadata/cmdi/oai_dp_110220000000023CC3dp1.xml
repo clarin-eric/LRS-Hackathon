@@ -1,0 +1,1813 @@
+<?xml version='1.0' encoding='UTF-8'?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654510" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654510 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654510/xsd">
+
+	<cmd:Header>
+		<cmd:MdCreator>NLP Leipzig CMDI Creator 2.0</cmd:MdCreator>
+<cmd:MdCreationDate>2016-11-10</cmd:MdCreationDate>
+<cmd:MdSelfLink>11022/0000-0000-23CC-3@type=dataprovider&amp;id=1</cmd:MdSelfLink>
+<cmd:MdProfile>clarin.eu:cr1:p_1381926654510</cmd:MdProfile>
+<cmd:MdCollectionDisplayName>Leipzig Corpora Collection</cmd:MdCollectionDisplayName>
+	</cmd:Header>
+	
+	<cmd:Resources>
+		<cmd:ResourceProxyList>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-searchservice">
+	<cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+	<cmd:ResourceRef>http://clarinws.informatik.uni-leipzig.de:8080/CQL</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-sentence-download">
+	<cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+	<cmd:ResourceRef>http://clarinws.informatik.uni-leipzig.de:8080/clarinwebservices/sentences/11022/0000-0000-23CC-3/sentencestext/?dataproviderId=1</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-6">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=6</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-8">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=8</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-9">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=9</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-10">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=10</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-11">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=11</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-12">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=12</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-13">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=13</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-14">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=14</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-15">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=15</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-16">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=16</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-17">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=17</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-19">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=19</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-20">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=20</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-23">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=23</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-24">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=24</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-25">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=25</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-26">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=26</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-27">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=27</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-28">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=28</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-29">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=29</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-30">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=30</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-31">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=31</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-32">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=32</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-34">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=34</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-35">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=35</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-39">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=39</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-40">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=40</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-43">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=43</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-44">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=44</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-46">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=46</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-48">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=48</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-49">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=49</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-50">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=50</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-52">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=52</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-54">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=54</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-55">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=55</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-59">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=59</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-63">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=63</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-64">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=64</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-66">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=66</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-67">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=67</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-68">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=68</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-69">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=69</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-71">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=71</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-72">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=72</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-73">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=73</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-77">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=77</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-79">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=79</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-80">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=80</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-81">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=81</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-83">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=83</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-85">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=85</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-88">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=88</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-90">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=90</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-91">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=91</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-98">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=98</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-101">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=101</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-104">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=104</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-105">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=105</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-112">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=112</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-113">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=113</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-117">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=117</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-118">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=118</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-119">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=119</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-121">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=121</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-123">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=123</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-124">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=124</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-126">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=126</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-130">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=130</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-133">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=133</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-135">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=135</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-136">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=136</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-140">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=140</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-143">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=143</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-150">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=150</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-151">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=151</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-153">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=153</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-154">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=154</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-158">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=158</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-164">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=164</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-166">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=166</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-167">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=167</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-170">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=170</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-176">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=176</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-179">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=179</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-187">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=187</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-188">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=188</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-191">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=191</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-193">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=193</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-199">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=199</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-202">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=202</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-203">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=203</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-204">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=204</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-205">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=205</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-208">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=208</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-213">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=213</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-214">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=214</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-217">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=217</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-219">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=219</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-222">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=222</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-223">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=223</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-226">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=226</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-233">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=233</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-235">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=235</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-236">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=236</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-239">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=239</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-241">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=241</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-245">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=245</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-252">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=252</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-259">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=259</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-262">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=262</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-268">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=268</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-277">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=277</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-285">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=285</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-293">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=293</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-295">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=295</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-301">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=301</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-305">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=305</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-307">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=307</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-311">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=311</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-314">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=314</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-316">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=316</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-317">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=317</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-319">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=319</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-321">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=321</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-329">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=329</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-331">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=331</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-334">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=334</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-338">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=338</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-342">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=342</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-347">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=347</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-355">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=355</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-364">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=364</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-368">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=368</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-375">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=375</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-379">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=379</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-381">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=381</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-382">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=382</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-383">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=383</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-391">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=391</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-396">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=396</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-397">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=397</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-400">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=400</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-406">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=406</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-408">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=408</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-414">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=414</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-424">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=424</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-428">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=428</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-443">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=443</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-475">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=475</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-477">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=477</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-489">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=489</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-494">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=494</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-495">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=495</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-503">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=503</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-516">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=516</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-520">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=520</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-528">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=528</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-538">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=538</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-541">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=541</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-545">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=545</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-548">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=548</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-564">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=564</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-568">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=568</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-587">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=587</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-597">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=597</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-598">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=598</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-603">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=603</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-605">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=605</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-606">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=606</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-612">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=612</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-618">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=618</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-622">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=622</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-625">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=625</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-627">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=627</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-629">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=629</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-643">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=643</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-652">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=652</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-653">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=653</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-672">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=672</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-679">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=679</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-693">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=693</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-708">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=708</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-709">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=709</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-725">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=725</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-730">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=730</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-744">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=744</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-746">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=746</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-748">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=748</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-749">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=749</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-751">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=751</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-754">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=754</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-760">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=760</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-761">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=761</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-771">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=771</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-776">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=776</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-790">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=790</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-795">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=795</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-800">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=800</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-802">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=802</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-816">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=816</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-819">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=819</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-821">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=821</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-826">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=826</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-842">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=842</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-889">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=889</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-902">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=902</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-904">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=904</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-905">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=905</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-930">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=930</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-936">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=936</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-946">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=946</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-968">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=968</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-982">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=982</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1009">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1009</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1017">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1017</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1024">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1024</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1026">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1026</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1040">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1040</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1043">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1043</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1069">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1069</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1081">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1081</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1088">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1088</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1093">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1093</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1103">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1103</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1117">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1117</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1125">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1125</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1137">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1137</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1145">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1145</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1148">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1148</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1164">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1164</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1168">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1168</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1191">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1191</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1196">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1196</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1207">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1207</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1208">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1208</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1222">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1222</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1223">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1223</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1227">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1227</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1239">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1239</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1248">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1248</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1268">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1268</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1289">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1289</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1305">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1305</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1316">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1316</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1317">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1317</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1341">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1341</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1345">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1345</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1352">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1352</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1353">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1353</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1363">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1363</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1396">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1396</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1413">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1413</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1416">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1416</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1426">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1426</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1450">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1450</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1470">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1470</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1474">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1474</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1475">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1475</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1477">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1477</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1481">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1481</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1494">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1494</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1508">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1508</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1524">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1524</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1536">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1536</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1539">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1539</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1548">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1548</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1563">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1563</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1580">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1580</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1589">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1589</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1590">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1590</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1596">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1596</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1613">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1613</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1614">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1614</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1631">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1631</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1639">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1639</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1656">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1656</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1666">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1666</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1667">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1667</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1691">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1691</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1697">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1697</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1710">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1710</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1723">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1723</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1724">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1724</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1739">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1739</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1749">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1749</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1751">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1751</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1758">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1758</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1779">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1779</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1785">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1785</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1803">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1803</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1830">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1830</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1847">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1847</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1850">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1850</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1877">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1877</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1901">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1901</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1908">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1908</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1912">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1912</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1932">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1932</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1959">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1959</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1973">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1973</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-1995">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=1995</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2019">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2019</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2031">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2031</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2057">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2057</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2069">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2069</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2091">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2091</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2109">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2109</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2123">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2123</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2177">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2177</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2183">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2183</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2212">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2212</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2223">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2223</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2224">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2224</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2228">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2228</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2235">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2235</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2252">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2252</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2260">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2260</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2278">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2278</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2280">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2280</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2286">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2286</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2308">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2308</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2309">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2309</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2338">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2338</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2381">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2381</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2393">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2393</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2408">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2408</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2427">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2427</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2504">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2504</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2523">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2523</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2530">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2530</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2547">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2547</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2591">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2591</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2600">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2600</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2614">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2614</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2667">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2667</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2672">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2672</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2675">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2675</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2677">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2677</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2701">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2701</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2707">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2707</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2747">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2747</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2812">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2812</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2818">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2818</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2824">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2824</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2825">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2825</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2839">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2839</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2881">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2881</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2906">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2906</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2973">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2973</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-2988">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=2988</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3017">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3017</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3066">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3066</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3085">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3085</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3128">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3128</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3177">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3177</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3186">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3186</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3189">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3189</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3198">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3198</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3199">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3199</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3232">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3232</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3297">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3297</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3334">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3334</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3340">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3340</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3351">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3351</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3352">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3352</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3375">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3375</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3383">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3383</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3461">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3461</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3462">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3462</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3500">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3500</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3506">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3506</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3530">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3530</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3542">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3542</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3558">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3558</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3611">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3611</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3628">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3628</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3828">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3828</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3887">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3887</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3946">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3946</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-3947">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=3947</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4047">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4047</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4065">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4065</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4066">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4066</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4095">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4095</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4149">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4149</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4167">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4167</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4185">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4185</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4297">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4297</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4345">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4345</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4346">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4346</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4555">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4555</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4618">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4618</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4750">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4750</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4803">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4803</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4894">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4894</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-4910">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=4910</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5002">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5002</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5046">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5046</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5160">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5160</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5170">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5170</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5316">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5316</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-5762">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=5762</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-6197">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=6197</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-6450">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=6450</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-6524">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=6524</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7038">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7038</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7075">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7075</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7155">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7155</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7241">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7241</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7306">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7306</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7327">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7327</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7480">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7480</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-7731">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=7731</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-8265">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=8265</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-9934">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=9934</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-10227">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=10227</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-10790">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=10790</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-12153">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=12153</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-12761">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=12761</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-13440">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=13440</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-14014">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=14014</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-15064">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=15064</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-16136">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=16136</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-17358">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=17358</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-17359">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=17359</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-17492">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=17492</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-23264">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=23264</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-30582">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=30582</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-23CC-3-dataprovider-1-component-datasource-30711">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-23CC-3@type=datasource&amp;id=30711</cmd:ResourceRef>
+</cmd:ResourceProxy>
+					</cmd:ResourceProxyList>
+		<cmd:JournalFileProxyList/>
+		<cmd:ResourceRelationList/>
+	</cmd:Resources>
+	
+	<cmd:Components>
+		<cmdp:LCC_DataProviderProfile ProfileId="clarin.eu:cr1:p_1381926654510">
+        	<cmdp:LCC_DataProvider ComponentId="clarin.eu:cr1:c_1381926654509">
+	<cmdp:Id>1</cmdp:Id>
+	<cmdp:Name>LCC data provider "geenstijl.feedsportal.com" in resource with identifier 11022/0000-0000-23CC-3</cmdp:Name>
+	<cmdp:Description xml:lang="eng">Data provider of the Leipzig Corpora Collection: geenstijl.feedsportal.com</cmdp:Description>	
+	
+			<cmdp:ResponsibleOrganisation>CLARIN-D center, Natural Language Processing Group, University of Leipzig</cmdp:ResponsibleOrganisation>
+		
+		<cmdp:ResourceType>Data Provider</cmdp:ResourceType>
+		
+		<cmdp:Contacts>
+							<cmdp:Contact>
+	<cmdp:Person>CLARIN Center Leipzig Staff</cmdp:Person>
+	<cmdp:Role>Technical contact</cmdp:Role>
+	<cmdp:Email>clarin@informatik.uni-leipzig.de</cmdp:Email>
+	<cmdp:Organisation>CLARIN-D center, Natural Language Processing Group, University of Leipzig</cmdp:Organisation>
+	<cmdp:Url>http://clarin.informatik.uni-leipzig.de/repo</cmdp:Url>
+</cmdp:Contact>
+					</cmdp:Contacts>
+		
+		<cmdp:Types>
+					   		<cmdp:Type>text/plain</cmdp:Type>
+					</cmdp:Types>
+		
+		<cmdp:Genres>
+					   		<cmdp:Genre>newspaper text</cmdp:Genre>
+					</cmdp:Genres>
+		
+					<cmdp:Language>
+		  		<cmdp:LanguageName>Dutch</cmdp:LanguageName>
+		  		<cmdp:ISO639>
+		  			<cmdp:iso-639-3-code>nld</cmdp:iso-639-3-code>
+		  		</cmdp:ISO639>
+			</cmdp:Language>
+				
+		<cmdp:TimeCoverage>
+	<cmdp:TimeCoverageBegin>2012-01-01</cmdp:TimeCoverageBegin>
+	<cmdp:TimeCoverageEnd>2012-02-17</cmdp:TimeCoverageEnd>
+</cmdp:TimeCoverage>
+		<cmdp:Size>
+			<cmdp:TotalSize>
+	<cmdp:Number>19419</cmdp:Number>
+	<cmdp:SizeUnit>number of sentences</cmdp:SizeUnit>
+</cmdp:TotalSize>
+		</cmdp:Size>
+		<cmdp:LCC_DataSourceList>
+					</cmdp:LCC_DataSourceList>
+	</cmdp:LCC_DataProvider>
+		</cmdp:LCC_DataProviderProfile>
+	</cmd:Components>
+</cmd:CMD>

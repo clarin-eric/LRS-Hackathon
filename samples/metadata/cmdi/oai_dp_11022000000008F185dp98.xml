@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?><cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654510" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654510 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654510/xsd">
+
+	<cmd:Header>
+		<cmd:MdCreator>NLP Leipzig CMDI Creator 2.0</cmd:MdCreator>
+<cmd:MdCreationDate>2016-11-10</cmd:MdCreationDate>
+<cmd:MdSelfLink>11022/0000-0000-8F18-5@type=dataprovider&amp;id=98</cmd:MdSelfLink>
+<cmd:MdProfile>clarin.eu:cr1:p_1381926654510</cmd:MdProfile>
+<cmd:MdCollectionDisplayName>Leipzig Corpora Collection</cmd:MdCollectionDisplayName>
+	</cmd:Header>
+	
+	<cmd:Resources>
+		<cmd:ResourceProxyList>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-searchservice">
+	<cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+	<cmd:ResourceRef>http://clarinws.informatik.uni-leipzig.de:8080/CQL</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-sentence-download">
+	<cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+	<cmd:ResourceRef>http://clarinws.informatik.uni-leipzig.de:8080/clarinwebservices/sentences/11022/0000-0000-8F18-5/sentencestext/?dataproviderId=98</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-685">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=685</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-1101">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=1101</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-1491">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=1491</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-2220">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=2220</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-3512">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=3512</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-5851">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=5851</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-23785">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=23785</cmd:ResourceRef>
+</cmd:ResourceProxy>
+				        	<cmd:ResourceProxy id="ulei-11022-0000-0000-8F18-5-dataprovider-98-component-datasource-256319">
+	<cmd:ResourceType mimetype="text/xml">Metadata</cmd:ResourceType>
+	<cmd:ResourceRef>11022/0000-0000-8F18-5@type=datasource&amp;id=256319</cmd:ResourceRef>
+</cmd:ResourceProxy>
+					</cmd:ResourceProxyList>
+		<cmd:JournalFileProxyList/>
+		<cmd:ResourceRelationList/>
+	</cmd:Resources>
+	
+	<cmd:Components>
+		<cmdp:LCC_DataProviderProfile ProfileId="clarin.eu:cr1:p_1381926654510">
+        	<cmdp:LCC_DataProvider ComponentId="clarin.eu:cr1:c_1381926654509">
+	<cmdp:Id>98</cmdp:Id>
+	<cmdp:Name>LCC data provider "collegefootballtalk.nbcsports.com" in resource with identifier 11022/0000-0000-8F18-5</cmdp:Name>
+	<cmdp:Description xml:lang="eng">Data provider of the Leipzig Corpora Collection: collegefootballtalk.nbcsports.com</cmdp:Description>	
+	
+			<cmdp:ResponsibleOrganisation>CLARIN-D center, Natural Language Processing Group, University of Leipzig</cmdp:ResponsibleOrganisation>
+		
+		<cmdp:ResourceType>Data Provider</cmdp:ResourceType>
+		
+		<cmdp:Contacts>
+							<cmdp:Contact>
+	<cmdp:Person>CLARIN Center Leipzig Staff</cmdp:Person>
+	<cmdp:Role>Technical contact</cmdp:Role>
+	<cmdp:Email>clarin@informatik.uni-leipzig.de</cmdp:Email>
+	<cmdp:Organisation>CLARIN-D center, Natural Language Processing Group, University of Leipzig</cmdp:Organisation>
+	<cmdp:Url>http://clarin.informatik.uni-leipzig.de/repo</cmdp:Url>
+</cmdp:Contact>
+					</cmdp:Contacts>
+		
+		<cmdp:Types>
+					   		<cmdp:Type>text/plain</cmdp:Type>
+					</cmdp:Types>
+		
+		<cmdp:Genres>
+					   		<cmdp:Genre>newspaper text</cmdp:Genre>
+					</cmdp:Genres>
+		
+					<cmdp:Language>
+		  		<cmdp:LanguageName>English</cmdp:LanguageName>
+		  		<cmdp:ISO639>
+		  			<cmdp:iso-639-3-code>eng</cmdp:iso-639-3-code>
+		  		</cmdp:ISO639>
+			</cmdp:Language>
+				
+		<cmdp:TimeCoverage>
+	<cmdp:TimeCoverageBegin>2013-01-01</cmdp:TimeCoverageBegin>
+	<cmdp:TimeCoverageEnd>2013-02-03</cmdp:TimeCoverageEnd>
+</cmdp:TimeCoverage>
+		<cmdp:Size>
+			<cmdp:TotalSize>
+	<cmdp:Number>57</cmdp:Number>
+	<cmdp:SizeUnit>number of sentences</cmdp:SizeUnit>
+</cmdp:TotalSize>
+		</cmdp:Size>
+		<cmdp:LCC_DataSourceList>
+					</cmdp:LCC_DataSourceList>
+	</cmdp:LCC_DataProvider>
+		</cmdp:LCC_DataProviderProfile>
+	</cmd:Components>
+</cmd:CMD>
