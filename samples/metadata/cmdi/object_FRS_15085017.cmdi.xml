@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+         CMDVersion="1.2">
+   <cmd:Header>
+      <cmd:MdCreationDate>2017-05-03+02:00</cmd:MdCreationDate>
+      <cmd:MdSelfLink>europeana:aggregation/europeana/2058606/object_FRS_15085017</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName>LRS hackathon examples - Europeana</cmd:MdCollectionDisplayName>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="landingPage_d1e58">
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef>http://europeana.eu/portal/record/2058606/object_FRS_15085017.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://ranieridisorbello.locloudhosting.net/files/original/481a0bc3e36b816e372f316cc5ff7e3d.PDF</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e6">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://ranieridisorbello.locloudhosting.net/items/show/335</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <EDM>
+         <edm-ProvidedCHO rdf-about="http://data.europeana.eu/item/2058606/object_FRS_15085017"/>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/provider/2058606/object_FRS_15085017"
+                           proxyFor="http://data.europeana.eu/item/2058606/object_FRS_15085017"
+                           proxyIn="http://data.europeana.eu/aggregation/provider/2058606/object_FRS_15085017">
+            <edm-ProvidedCHO>
+               <dc-description>Amico carissimo, non era mia intenzione scrivervi in questa ricorrenza...; note manoscritte
+</dc-description>
+               <dc-format>PDF</dc-format>
+               <dc-identifier>MISC 9, 53</dc-identifier>
+               <dc-language>it</dc-language>
+               <dc-title>Amico carissimo, non era mia intenzione scrivervi in questa ricorrenza...
+</dc-title>
+               <edm-type>TEXT</edm-type>
+               <dc-creator>
+                  <dc-creator>F.B.</dc-creator>
+               </dc-creator>
+               <dc-date>
+                  <dc-date>[1847]</dc-date>
+               </dc-date>
+               <dc-publisher>
+                  <dc-publisher>[S.l. : s.n.]
+</dc-publisher>
+               </dc-publisher>
+               <dc-subject>
+                  <dc-subject>PIO IX. Papa - Celebrazioni -  lettere</dc-subject>
+               </dc-subject>
+               <dc-type>
+                  <dc-type>Text</dc-type>
+               </dc-type>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/europeana/2058606/object_FRS_15085017"
+                           proxyFor="http://data.europeana.eu/item/2058606/object_FRS_15085017"
+                           proxyIn="http://data.europeana.eu/aggregation/europeana/2058606/object_FRS_15085017"
+                           edm-europeanaProxy="true">
+            <edm-ProvidedCHO>
+               <edm-type>TEXT</edm-type>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <edm-Aggregation rdf-about="http://data.europeana.eu/aggregation/provider/2058606/object_FRS_15085017"
+                          aggregatedCHO="http://data.europeana.eu/item/2058606/object_FRS_15085017">
+            <edm-dataProvider>Fondazione Ranieri di Sorbello</edm-dataProvider>
+            <edm-provider>LoCloud</edm-provider>
+            <edm-isShownAt>
+               <edm-WebResource cmd:ref="webResource_d1e6"/>
+            </edm-isShownAt>
+            <edm-isShownBy>
+               <edm-WebResource cmd:ref="webResource_d1e3">
+                  <dc-rights>CC0 1.0 Universal (CC0 1.0)
+</dc-rights>
+               </edm-WebResource>
+            </edm-isShownBy>
+            <edm-object>
+               <edm-WebResource cmd:ref="webResource_d1e3">
+                  <dc-rights>CC0 1.0 Universal (CC0 1.0)
+</dc-rights>
+               </edm-WebResource>
+            </edm-object>
+            <edm-rights>
+               <rightsURI>http://creativecommons.org/publicdomain/zero/1.0/</rightsURI>
+            </edm-rights>
+         </edm-Aggregation>
+         <edm-EuropeanaAggregation rdf-about="http://data.europeana.eu/aggregation/europeana/2058606/object_FRS_15085017"
+                                   aggregatedCHO="http://data.europeana.eu/item/2058606/object_FRS_15085017">
+            <edm-collectionName>2058606_Ag_EU_LoCloud_FRS</edm-collectionName>
+            <edm-country>Italy</edm-country>
+            <edm-language>it</edm-language>
+            <edm-landingPage cmd:ref="landingPage_d1e58"/>
+         </edm-EuropeanaAggregation>
+      </EDM>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+         CMDVersion="1.2">
+   <cmd:Header>
+      <cmd:MdCreationDate>2017-05-03+02:00</cmd:MdCreationDate>
+      <cmd:MdSelfLink>europeana:aggregation/europeana/92068/URN_NBN_SI_doc_ZQK2SLRJ_</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName>LRS hackathon examples - Europeana</cmd:MdCollectionDisplayName>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="landingPage_d1e161">
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef>http://europeana.eu/portal/record/92068/URN_NBN_SI_doc_ZQK2SLRJ_.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e5">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.dlib.si/streamdb/URN:NBN:SI:doc-ZQK2SLRJ/maxi/edm</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e4">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/e341e383-9c64-4b73-981d-5ee7ead4f052/PDF</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.dlib.si/details/URN:NBN:SI:doc-ZQK2SLRJ</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e6">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/49eb9b72-d76d-4a38-8ee5-66b247859387/HTML</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e7">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://www.dlib.si/stream/URN:NBN:SI:doc-ZQK2SLRJ/8b8774b3-2221-4d5a-89ad-2a90d7ee4bac/TEXT</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <EDM>
+         <edm-ProvidedCHO rdf-about="http://data.europeana.eu/item/92068/URN_NBN_SI_doc_ZQK2SLRJ_"/>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/provider/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                           proxyFor="http://data.europeana.eu/item/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                           proxyIn="http://data.europeana.eu/aggregation/provider/92068/URN_NBN_SI_doc_ZQK2SLRJ_">
+            <edm-ProvidedCHO>
+               <dc-format>extent:50 str.</dc-format>
+               <dc-identifier>COBISSID:85463296</dc-identifier>
+               <dc-identifier>SIGN:n36036</dc-identifier>
+               <dc-identifier>URN:URN:NBN:SI:doc-ZQK2SLRJ</dc-identifier>
+               <dc-language>ger</dc-language>
+               <dc-source>Knjige</dc-source>
+               <dc-source xml:lang="slv">Slovenski nacionalni agregator e-vsebin</dc-source>
+               <dc-source xml:lang="slv">Narodna in univerzitetna knjižnica, Slovenija</dc-source>
+               <dc-title>Von Brindisi nach Messina; reiseskizzen</dc-title>
+               <edm-type>TEXT</edm-type>
+               <dc-creator>
+                  <dc-creator>Perušek, Rajko</dc-creator>
+               </dc-creator>
+               <dc-publisher>
+                  <dc-publisher>Kleinmayr &amp; Bamberg</dc-publisher>
+               </dc-publisher>
+               <dc-subject>
+                  <dc-subject>potopisi</dc-subject>
+               </dc-subject>
+               <dc-subject>
+                  <dc-subject>Reisebeschreibung</dc-subject>
+               </dc-subject>
+               <dc-type>
+                  <dc-type xml:lang="slv">knjige</dc-type>
+               </dc-type>
+               <dcterms-issued>
+                  <dcterms-issued>1900</dcterms-issued>
+               </dcterms-issued>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/europeana/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                           proxyFor="http://data.europeana.eu/item/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                           proxyIn="http://data.europeana.eu/aggregation/europeana/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                           edm-europeanaProxy="true">
+            <edm-ProvidedCHO>
+               <edm-type>TEXT</edm-type>
+               <edm-year>1900</edm-year>
+               <dc-creator>
+                  <edm-Agent rdf-about="http://data.europeana.eu/agent/base/131450">
+                     <skos-prefLabel xml:lang="sl">Rajko Perušek</skos-prefLabel>
+                     <skos-prefLabel xml:lang="en">Rajko Perušek</skos-prefLabel>
+                     <skos-altLabel xml:lang="en">Rajko Perusek</skos-altLabel>
+                     <edm-end>1917-02-25</edm-end>
+                     <rdaGr2-biographicalInformation xml:lang="sl">Rajko Perušek, slovenski jezikoslovec, pisatelj, prevajalec in bibliograf, * 7. januar 1854, Ljubljana, † 25. februar 1917, Dunaj.</rdaGr2-biographicalInformation>
+                     <rdaGr2-dateOfBirth>1854-01-07</rdaGr2-dateOfBirth>
+                     <rdaGr2-dateOfDeath>1917-02-25</rdaGr2-dateOfDeath>
+                     <rdaGr2-professionOrOccupation xml:lang="en">writer, translator, linguist, bibliographer</rdaGr2-professionOrOccupation>
+                     <owl-sameAs rdf-resource="http://rdf.freebase.com/ns/m.0hnfg79"/>
+                     <owl-sameAs rdf-resource="http://sl.dbpedia.org/resource/Rajko_Perušek"/>
+                     <owl-sameAs rdf-resource="http://wikidata.org/entity/Q7286275"/>
+                     <owl-sameAs rdf-resource="http://wikidata.dbpedia.org/resource/Q7286275"/>
+                     <owl-sameAs rdf-resource="http://dbpedia.org/resource/Rajko_Perušek"/>
+                     <rdaGr2-placeOfBirth rdf-resource="http://dbpedia.org/resource/Slovenia"/>
+                     <rdaGr2-placeOfDeath rdf-resource="http://dbpedia.org/resource/Austria-Hungary"/>
+                  </edm-Agent>
+               </dc-creator>
+               <dc-date>
+                  <edm-TimeSpan rdf-about="http://semium.org/time/19xx_1_third">
+                     <skos-prefLabel xml:lang="en">Early 20th century</skos-prefLabel>
+                     <skos-prefLabel xml:lang="ru">Начало 20-го века</skos-prefLabel>
+                     <dcterms-isPartOf rdf-resource="http://semium.org/time/19xx"/>
+                     <edm-begin>Tue Jan 01 00:19:32 CET 1901</edm-begin>
+                     <edm-end>Sun Dec 31 00:19:32 CET 1933</edm-end>
+                  </edm-TimeSpan>
+               </dc-date>
+               <dcterms-issued>
+                  <edm-TimeSpan rdf-about="http://semium.org/time/1900">
+                     <skos-prefLabel>1900</skos-prefLabel>
+                     <dcterms-isPartOf rdf-resource="http://semium.org/time/19xx_1_third"/>
+                     <edm-begin>Mon Jan 01 00:19:32 CET 1900</edm-begin>
+                     <edm-end>Mon Dec 31 00:19:32 CET 1900</edm-end>
+                  </edm-TimeSpan>
+               </dcterms-issued>
+               <dcterms-temporal>
+                  <edm-TimeSpan rdf-about="http://semium.org/time/19xx">
+                     <skos-prefLabel>20..</skos-prefLabel>
+                     <skos-prefLabel>20??</skos-prefLabel>
+                     <skos-prefLabel>20e</skos-prefLabel>
+                     <skos-prefLabel xml:lang="fr">20e siècle</skos-prefLabel>
+                     <skos-prefLabel xml:lang="en">20-th</skos-prefLabel>
+                     <skos-prefLabel xml:lang="en">20th</skos-prefLabel>
+                     <skos-prefLabel xml:lang="en">20th century</skos-prefLabel>
+                     <skos-prefLabel xml:lang="ru">20й век</skos-prefLabel>
+                     <skos-prefLabel xml:lang="nl">20de eeuw</skos-prefLabel>
+                     <dcterms-isPartOf rdf-resource="http://semium.org/time/AD2xxx"/>
+                     <edm-begin>Tue Jan 01 00:19:32 CET 1901</edm-begin>
+                     <edm-end>Sun Dec 31 01:00:00 CET 2000</edm-end>
+                  </edm-TimeSpan>
+               </dcterms-temporal>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <edm-Aggregation rdf-about="http://data.europeana.eu/aggregation/provider/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                          aggregatedCHO="http://data.europeana.eu/item/92068/URN_NBN_SI_doc_ZQK2SLRJ_">
+            <edm-dataProvider xml:lang="eng">National and University Library of Slovenia</edm-dataProvider>
+            <edm-provider xml:lang="eng">Slovenian National E-content Aggregator</edm-provider>
+            <edm-hasView>
+               <edm-WebResource cmd:ref="webResource_d1e6"/>
+            </edm-hasView>
+            <edm-hasView>
+               <edm-WebResource cmd:ref="webResource_d1e7"/>
+            </edm-hasView>
+            <edm-isShownAt>
+               <edm-WebResource cmd:ref="webResource_d1e3"/>
+            </edm-isShownAt>
+            <edm-isShownBy>
+               <edm-WebResource cmd:ref="webResource_d1e4"/>
+            </edm-isShownBy>
+            <edm-object>
+               <edm-WebResource cmd:ref="webResource_d1e5"/>
+            </edm-object>
+            <edm-rights>
+               <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+            </edm-rights>
+         </edm-Aggregation>
+         <edm-EuropeanaAggregation rdf-about="http://data.europeana.eu/aggregation/europeana/92068/URN_NBN_SI_doc_ZQK2SLRJ_"
+                                   aggregatedCHO="http://data.europeana.eu/item/92068/URN_NBN_SI_doc_ZQK2SLRJ_">
+            <edm-collectionName>92068_Ag_Slovenia_ETravel</edm-collectionName>
+            <edm-country>Slovenia</edm-country>
+            <edm-language>sl</edm-language>
+            <edm-landingPage cmd:ref="landingPage_d1e161"/>
+            <edm-rights>
+               <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+            </edm-rights>
+         </edm-EuropeanaAggregation>
+      </EDM>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+         CMDVersion="1.2">
+   <cmd:Header>
+      <cmd:MdCreationDate>2017-05-03+02:00</cmd:MdCreationDate>
+      <cmd:MdSelfLink>europeana:aggregation/europeana/2059209/data_sounds_C0410X0052XX_0300</cmd:MdSelfLink>
+      <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName>LRS hackathon examples - Europeana</cmd:MdCollectionDisplayName>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="landingPage_d1e92">
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef>http://europeana.eu/portal/record/2059209/data_sounds_C0410X0052XX_0300.html</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e4">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://sounds.bl.uk/waveforms/Jewish-Holocaust-survivors/021A-C0410X0052XX-0300A0.png</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://sounds.bl.uk/Oral-history/Jewish-Holocaust-survivors/021M-C0410X0052XX-0300V0</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+         <cmd:ResourceProxy id="webResource_d1e5">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>http://sounds.bl.uk/related-content/TRANSCRIPTS/021I-C0410X0052XX-ZZZZA0.pdf</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:Components>
+      <EDM>
+         <edm-ProvidedCHO rdf-about="http://data.europeana.eu/item/2059209/data_sounds_C0410X0052XX_0300"/>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/provider/2059209/data_sounds_C0410X0052XX_0300"
+                           proxyFor="http://data.europeana.eu/item/2059209/data_sounds_C0410X0052XX_0300"
+                           proxyIn="http://data.europeana.eu/aggregation/provider/2059209/data_sounds_C0410X0052XX_0300">
+            <edm-ProvidedCHO>
+               <dc-description>Part 3:Around 7 and 8 of May all the guards disappeared. The inmates were left inside the camp and they could hear something going on in middle of night. Only the Czech guards remained. The Russian tanks arrived. They were 'Liberated' by the Russians but not yet allowed to go out of the camp. Later he went with friends on a 'rampage' stealing food and clothing from a warehouse in Lietmaritz, a town two to three kilometres away. They put the goods into sacks but they were too weak to carry them back to the camp. His friend stole a Russian soldier's motor-cycle which was parked at the kerb nearby. The motor-cycle had a side-car - his friend was not an experienced driver and he overturned the motorcycle after a short distance. They abandoned it and stopped a passing horse-driven cart occupied by Germans. They ordered the Germans to get out of the road ("runte die scheisse") and "like lemeles" (like idiots) the Germans let them have the cart. They went downhill over a bridge which crossed the river, not being good drivers; they couldn't hold the horses and the cart turned over in the ravine. They left the cart and the horses and went back to the road. He found a 'panzerfaust' (anti- tank gun) which, out of devilment, he fired. The explosion temporarily deafened him and later, in the camp, where there was now a medical tent, a doctor syringed his ears. Then they met a convoy of Russian artillery and were given a lift back to the camp. They distributed their stolen food amongst the other inmates - many got ill from eating the pork fat. The Russians were friendly and the conditions became easier. People from other camps and villages came looking for relatives. Some Russian officers (Jewish) asked people where they wanted to go on leaving the camp. Some wanted to return to Poland. He did not, having no family and no job. He said he wanted to go to Palestine. He started to regain his strength but he was very depressed not to have any relatives looking for him like so many of the other inmates. Finally a delegation came from England - the Jewish Refugee Aid Committee - to the camp. They said he could not go to Palestine as British would not allow it. But anyone 16 years or under could go to Britain. So he said he was fewer than 16 (although he was really 19). He was examined by medical board in the camp and put on a list but he had to stay in camp. He was allowed to go out into the countryside and meet local people. Within a few weeks he was taken to Prague, en route for England. He was put in accommodation in Prague and given vouchers for eating in restaurants. He enjoyed Prague. After a short time he was taken to Prague airport. He had never been in a 'plane before. They were divided into groups of 30 and transported in Lancaster bombers. He landed, he thinks, in Belgium to refuel - some time in August 1945. The Belgians fed them - first time he had tasted white bread. They met Polish Air Force officers from England who told them how different the Jews were there. After that they took them to (he thinks) Kendal airport and from there to a camp in Windemere. They were welcomed with food and given only underwear - no outer clothing. The young girls (madrichim - Hebrew word meaning 'leaders') were looking after them. They wanted to bath them! Early next morning he went out, in underwear, to look at the surroundings. He saw a bicycle outside a house, knocked and mimed a request to borrow the cycle. The request was granted and he rode around Windemere in the early morning sunshine enjoying the beauty. Outer clothing was distributed later that day. All this was organised by Habonim (a Jewish Youth Organisation) and other Jewish aid committees. He was there for a few weeks. He started going out with local girls, going to cinemas, swimming in the lake, taking out boats, "letting off steam". Interviewee's note: Born in Jeziorna-Konstancin, small village outside Warsaw. Lived with parents and three siblings. Grandparents, uncles, cousins, all lived in the same area. Parents had small business supplying "schuedaten" (accessories for making shoes) to local shoemakers. Not rich but not poor. Observant Jews but not Orthodox. Solomon maternal grandfather had a business supplying seeds and grain to local farmers and also sold their production. It was a very prosperous business. Father's family were rabbis and teachers. On February 1940 they were surrounded and taken out in lorries during the night into the ghetto in Warsaw. His father told him to escape and go to find his uncle in Sopyen, a village about 40 kilometres from Warsaw. After escaping through the ghetto wall, he took a river boat on Vistula. On arrival in Sopyen he found that the Germans were already driving Jews out so he ran away. For some months he lived in the countryside. He then went to a place called Mialuf to work with a group of Jews digging channels in a road for drainage. They all lived in the fire-station and slept on straw mats on the floor. The channel-digging job finished and they were all taken to a ghetto in Kojinitza, and later on transported to a labour camp in Skarzysko-Kamienna and eventually to Buchenwald.</dc-description>
+               <dc-identifier>C0410X0052XX-0300</dc-identifier>
+               <dc-language>English</dc-language>
+               <dc-relation>C410/052</dc-relation>
+               <dc-title>Freiman, Solomon, 1926- (3 of 4) The Living Memory of the Jewish Community</dc-title>
+               <dcterms-extent>00:31:35</dcterms-extent>
+               <dcterms-isPartOf>Jewish survivors of the Holocaust</dcterms-isPartOf>
+               <dcterms-isPartOf>The Living Memory of the Jewish Community</dcterms-isPartOf>
+               <dcterms-isPartOf rdf-resource="http://sounds.bl.uk/Oral-history/Jewish-Holocaust-survivors"/>
+               <edm-isNextInSequence rdf-resource="http://mint-projects.image.ntua.gr/data/sounds/C0410X0052XX-0200"/>
+               <edm-type>SOUND</edm-type>
+               <dc-contributor>
+                  <dc-contributor>Freiman, Solomon, 1926- (speaker, male)</dc-contributor>
+               </dc-contributor>
+               <dc-contributor>
+                  <dc-contributor>Mundy, Audrie,(interviewer, female)</dc-contributor>
+               </dc-contributor>
+               <dc-contributor>
+                  <dc-contributor>Mundy, Audrie (recordist)</dc-contributor>
+               </dc-contributor>
+               <dc-date>
+                  <dc-date>1989-09-22</dc-date>
+               </dc-date>
+               <dc-date>
+                  <dc-date>1989-10-13</dc-date>
+               </dc-date>
+               <dc-subject>
+                  <dc-subject>Camp experiences</dc-subject>
+               </dc-subject>
+               <dc-subject>
+                  <dc-subject>Holocaust</dc-subject>
+               </dc-subject>
+               <dc-subject>
+                  <skos-Concept rdf-about="http://data.europeana.eu/concept/soundgenres/Spoken_word_recordings/Oral_histories">
+                     <skos-prefLabel xml:lang="de">Mündlichen Geschichten</skos-prefLabel>
+                     <skos-prefLabel xml:lang="it">Storie orali</skos-prefLabel>
+                     <skos-prefLabel xml:lang="pl">Historie mówione</skos-prefLabel>
+                     <skos-prefLabel xml:lang="fr">Histoires orales</skos-prefLabel>
+                     <skos-prefLabel xml:lang="en">Oral histories</skos-prefLabel>
+                     <skos-prefLabel xml:lang="es">Historias orales</skos-prefLabel>
+                     <skos-note xml:lang="en">Recollections of persons whose experience or memories are representative or are of special historical or social significance.</skos-note>
+                  </skos-Concept>
+               </dc-subject>
+               <dcterms-spatial>
+                  <dcterms-spatial>Interviewee's home</dcterms-spatial>
+               </dcterms-spatial>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <ProvidedCHOProxy rdf-about="http://data.europeana.eu/proxy/europeana/2059209/data_sounds_C0410X0052XX_0300"
+                           proxyFor="http://data.europeana.eu/item/2059209/data_sounds_C0410X0052XX_0300"
+                           proxyIn="http://data.europeana.eu/aggregation/europeana/2059209/data_sounds_C0410X0052XX_0300"
+                           edm-europeanaProxy="true">
+            <edm-ProvidedCHO>
+               <edm-type>SOUND</edm-type>
+            </edm-ProvidedCHO>
+         </ProvidedCHOProxy>
+         <edm-Aggregation rdf-about="http://data.europeana.eu/aggregation/provider/2059209/data_sounds_C0410X0052XX_0300"
+                          aggregatedCHO="http://data.europeana.eu/item/2059209/data_sounds_C0410X0052XX_0300">
+            <edm-dataProvider>The British Library</edm-dataProvider>
+            <edm-provider>Europeana Sounds</edm-provider>
+            <dc-rights>The British Library Board acknowledges the intellectual property rights of those named as contributors to this recording and the rights of those not identified. Please refer to the library's legal and ethical usage page: http://sounds.bl.uk/Information/Legal-And-Ethical-Usage</dc-rights>
+            <edm-hasView>
+               <edm-WebResource cmd:ref="webResource_d1e5"/>
+            </edm-hasView>
+            <edm-isShownAt>
+               <edm-WebResource cmd:ref="webResource_d1e3"/>
+            </edm-isShownAt>
+            <edm-object>
+               <edm-WebResource cmd:ref="webResource_d1e4"/>
+            </edm-object>
+            <edm-rights>
+               <rightsURI>http://rightsstatements.org/vocab/InC/1.0/</rightsURI>
+            </edm-rights>
+         </edm-Aggregation>
+         <edm-EuropeanaAggregation rdf-about="http://data.europeana.eu/aggregation/europeana/2059209/data_sounds_C0410X0052XX_0300"
+                                   aggregatedCHO="http://data.europeana.eu/item/2059209/data_sounds_C0410X0052XX_0300">
+            <edm-collectionName>2059209_Ag_EU_eSOUNDS_1018_BL</edm-collectionName>
+            <edm-country>United Kingdom</edm-country>
+            <edm-language>en</edm-language>
+            <edm-landingPage cmd:ref="landingPage_d1e92"/>
+         </edm-EuropeanaAggregation>
+      </EDM>
+   </cmd:Components>
+</cmd:CMD>
