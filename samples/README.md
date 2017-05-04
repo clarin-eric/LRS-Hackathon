@@ -1,6 +1,9 @@
 # LRS Hackathon sample resources
 
-## By tpe
+Metadata (CMDI) records exist that describe many of the resources listed below. These can
+be found in [metadata/cmdi](./metadata/cmdi).
+
+## Resources by type
 
 * [Speech samples (wav, ogg)](resources/speech) (directory)
 * [Plain text files](resources/txt) (directory)
@@ -8,7 +11,7 @@
 * [Word files (.docx)](resources/docx) (directory)
 * [PDF files](resources/pdf) (directory)
 
-## By language
+## Resources by language
 
 * Czech
 	* [Speech samples (wav, ogg)](resources/speech) (directory)
