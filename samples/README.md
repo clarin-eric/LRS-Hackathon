@@ -48,7 +48,7 @@
 	* [Word file (.doc)](resources/doc/hermes-de.doc)
 	* [Word file (.docx)](resources/docx/hermes-de.docx)
 	* [PDF document (blackletter, scanned and OCRed)](resources/pdf/de-PDF.pdf)
-		* [Plain text OCR output](resources/text/de-Von_URN-NBN-SI-doc-ZQK2SLRJ.txt)
+		* [Plain text OCR output](resources/txt/de-Von_URN-NBN-SI-doc-ZQK2SLRJ.txt)
 * Italian
 	* [Speech samples (wav, ogg)](resources/speech) (directory)
 	* [Plain text sample](resources/txt/hermes-it.txt)
@@ -67,4 +67,4 @@
 	* [Word file (.doc)](resources/doc/hermes-sl.doc)
 	* [Word file (.docx)](resources/docx/hermes-sl.docx)
 	* [PDF document (scanned and OCRed)](resources/pdf/sl-SvatbaSLGC1998_Dnevnik_9_2.pdf)
-		* [Plain text OCR output](resources/text/de-Von_URN-NBN-SI-doc-ZQK2SLRJ.txt)
+		* [Plain text OCR output](resources/txt/de-Von_URN-NBN-SI-doc-ZQK2SLRJ.txt)
