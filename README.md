@@ -60,7 +60,7 @@ How to get started doing is is explained in the following section.
 
 The easiest way to get started is by finding some resources that match the input supported
 by your tool in terms of language and media type. See the 
-[overview of sample resources](samples/resources) or browse the selection of resources in the  
+[overview of sample resources](samples) or browse the selection of resources in the  
 [Alpha VLO](http://alpha-vlo.clarin.eu/vlo/?fqType=dataProvider:or&fq=dataProvider:LRS+Hackathon+samples)
 to see what is available (use the 'Language' and 'Format' facets to quickly find resources
 matching your tool).
