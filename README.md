@@ -61,13 +61,13 @@ How to get started doing is is explained in the following section.
 The easiest way to get started is by finding some resources that match the input supported
 by your tool in terms of language and media type. See the 
 [overview of sample resources](samples) or browse the selection of resources in the  
-[Alpha VLO](http://alpha-vlo.clarin.eu/vlo/?fqType=dataProvider:or&fq=dataProvider:LRS+Hackathon+samples)
+[Alpha VLO](http://alpha-vlo.clarin.eu/hackathon)
 to see what is available (use the 'Language' and 'Format' facets to quickly find resources
 matching your tool).
 
 ### 2. Invoke the LRS
 
-From the [Alpha VLO](http://alpha-vlo.clarin.eu/vlo/?fqType=dataProvider:or&fq=dataProvider:LRS+Hackathon+samples)
+From the [Alpha VLO](http://alpha-vlo.clarin.eu/hackathon) or [B2DROP](http://weblicht.sfs.uni-tuebingen.de/owncloud) (ask for credentials)
 you can invoke the LRS with a selected tool by going to the record page, selecting the
 _Resources_ tab and then choosing the LRS option from the action menu (described in detail
 on the [VLO's help page](https://vlo.clarin.eu/help#processing-resources)).
@@ -131,5 +131,6 @@ an applicable (sample) resource!
 ## Links
 * [CLARIN Language Resource Switchboard](http://weblicht.sfs.uni-tuebingen.de/clrs) - Primary instance of the LRS, running in Tübingen
 * [CLARIN Language Resource Switchboard - development version](http://weblicht.sfs.uni-tuebingen.de/clrs-dev) - Latest development version of the LRS, best to use this during the hackathon
-* [Alpha VLO with sample resources selected](http://alpha-vlo.clarin.eu/vlo/?fqType=dataProvider:or&fq=dataProvider:LRS+Hackathon+samples)
+* [Alpha VLO with sample resources selected](http://alpha-vlo.clarin.eu/hackathon)
+* [B2DROP instance connected to the development LRS](http://weblicht.sfs.uni-tuebingen.de/owncloud) (ask for credentials)
 * [LRSwitchboard repository](https://github.com/clarin-eric/LRSwitchboard) - LRS source code
