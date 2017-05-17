@@ -24,7 +24,7 @@ Wednesday 17 May 2017
 - __10:30__ Coffee break
 - __11:00__ Coding
 - __12:00__ Presentations & discussion
-- __12:15__ Discuss next steps
+- __12:20__ Discuss next steps
 - __12:30__ End of hackathon
 
 ## Background
