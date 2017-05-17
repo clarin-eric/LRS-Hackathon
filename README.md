@@ -63,7 +63,7 @@ by your tool in terms of language and media type. See the
 [overview of sample resources](samples) or browse the selection of resources in the  
 [Alpha VLO](http://alpha-vlo.clarin.eu/hackathon)
 to see what is available (use the 'Language' and 'Format' facets to quickly find resources
-matching your tool).
+matching your tool). You can also go to the [connected B2DROP instance](http://weblicht.sfs.uni-tuebingen.de/owncloud) (ask for credentials) and see what is available there, or upload your own resources for testing.
 
 ### 2. Invoke the LRS
 
