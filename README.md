@@ -119,7 +119,7 @@ Tool **metadata** can be sent  to Claus via email. The following information is 
 * The URL where the tool lives
 * The parameter names the switchboard should use to invoke the tool
 
-It is stored as a nested JSON structure. More information during the hackathlon, or via the 
+It is stored as a nested JSON structure. More information during the hackathon, or via the 
 [LRS homepage](http://weblicht.sfs.uni-tuebingen.de/clrs) under _Developer_, or have a look
 at this [example](samples/lrs-metadata/lrs-metadata.json).
 
