@@ -70,7 +70,7 @@ matching your tool).
 Invoke the LRS, either from the [Alpha VLO](http://alpha-vlo.clarin.eu/hackathon), via [B2DROP](http://weblicht.sfs.uni-tuebingen.de/owncloud) (ask for credentials) or the [stand-alone version](http://weblicht.sfs.uni-tuebingen.de/clrs-dev/).
 In the VLO you can invoke the LRS with a selected tool by going to the record page, selecting the
 _Resources_ tab and then choosing the LRS option from the action menu (described in detail
-on the [VLO's help page](https://vlo.clarin.eu/help#processing-resources)). In B2DROP, make sure that a resource is shared before calling the LRS on it via the context menu. If you choose to use the stand-alone version, you will have to upload a file yourself, for example one of the [sample resources](samples/resources).
+on the [VLO's help page](https://vlo.clarin.eu/help#processing-resources)). In B2DROP, make sure that a resource is shared before calling the LRS on it via the context menu. If you choose to use the stand-alone version, you will have to upload a file yourself, for example one of the [sample resources](samples).
 
 Have a look and see what processing options the LRS has to offer. Also notice that as a
 user of the LRS you can tweak the input settings (language and media type) or provide
